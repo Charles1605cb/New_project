@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    padding: 50px;
+    margin-bottom: 10px;
+}
+button{
+    padding: 10px;
+    background: rgb(88, 84, 84);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #fff;
+}
+.parent{
+    background: #000;
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    align-items: center;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 16px;
+    padding: 10px;
+}
+.equals{
+    background: orangered;
+}
+#i{
+    color: #fff;
+}
